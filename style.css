@@ -51,17 +51,15 @@ form {
     border: 1px solid #999;
   }
   
-  input:focus,
+  input:focus,/*focus is pseudoclass ,represent an element that has recieved focus ,eg: if just color given then inside box turns to that color*/
   textarea:focus {
     /* Additional highlight for focused elements */
-    border-color: #000;
+    border-color: #000;/*focus makess border black when clicked*/
   }
   
   textarea {
     /* Align multiline text fields with their labels */
     vertical-align: top;
-  
-    /* Provide space to type some text */
     height: 5em;
   }
   
@@ -69,7 +67,6 @@ form {
     /* Align buttons with the text fields */
     padding-left: 125px;
     padding-top: 10px;
-  /* same size as the label elements */
   }
   
   button {
